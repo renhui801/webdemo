@@ -1,0 +1,1232 @@
+[ 2017-01-10T00:22:42+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-10T00:22:43+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=1&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:22:58+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`body_name`,`body_title`,`content`,`copyright`,`seo_title`,`seo_description`,`seo_keywords`,`seo_author`,`seo_copyright`,`seo_noindex`,`page_css`,`id`,`ptitle`) VALUES ('12312312','12321321','&lt;p&gt;123123&lt;img alt=&quot;&quot; src=&quot;/webdemo/Public/ckfinder/userfiles/images/mark%20-%20%E5%89%AF%E6%9C%AC.png&quot; style=&quot;height:62px; width:150px&quot; /&gt;&lt;/p&gt;
+','123213','','','','','','4','','1','/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:22:59+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-10T00:23:00+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:01+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:02+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:03+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:04+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:05+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-10T00:23:06+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:07+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:09+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:10+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:11+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:12+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:13+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:14+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:15+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:16+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T00:23:17+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:18+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:19+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`ptitle`) VALUES ('/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant nav - assumed 'nav' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:23:52+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:25:05+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=1&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:26:37+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T00:26:41+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=1&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:27:44+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`body_name`,`body_title`,`content`,`copyright`,`seo_title`,`seo_description`,`seo_keywords`,`seo_author`,`seo_copyright`,`seo_noindex`,`page_css`,`id`,`ptitle`) VALUES ('12312312','12321321','&lt;p&gt;123123&lt;img alt=&quot;&quot; src=&quot;/webdemo/Public/ckfinder/userfiles/images/mark%20-%20%E5%89%AF%E6%9C%AC.png&quot; style=&quot;height:62px; width:150px&quot; /&gt;&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://player.youku.com/player.php/sid/XMTk0NjIyOTY2NA==/v.swf&quot; /&gt;&lt;embed allowfullscreen=&quot;true&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; quality=&quot;high&quot; src=&quot;http://player.youku.com/player.php/sid/XMTk0NjIyOTY2NA==/v.swf&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+','123213','','','','','','4','','1','/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T00:27:45+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T00:27:49+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=1&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T16:29:59+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T16:30:02+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=1&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T16:30:04+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T16:30:08+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=2&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable:  G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T16:30:22+08:00 ] ::1 /webdemo/index.php/Admin/Config/editpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'ptitle' G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 95 行.
+SQL: SELECT `ptitle` FROM `page`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: REPLACE INTO `page` (`body_name`,`body_title`,`content`,`copyright`,`seo_title`,`seo_description`,`seo_keywords`,`seo_author`,`seo_copyright`,`seo_noindex`,`page_css`,`id`,`ptitle`) VALUES ('121','1313133','','','','','','','','4','','2','/webdemo/public/update/img/page/ptitle1.png') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T16:30:23+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T16:30:26+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=2&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 4 G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T16:30:41+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T16:34:40+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=6&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable:  G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T16:34:45+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=10&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T17:09:45+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=10&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T17:21:40+08:00 ] ::1 /webdemo/index.php/Admin/Index/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T17:21:42+08:00 ] ::1 /webdemo/index.php/Admin/Index/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T17:21:43+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:37:20+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T23:06:57+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=6&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `page` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable:  G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\48d879e7370ff1d304b0721df8ad2410.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T23:07:01+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T23:07:04+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=10&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T23:44:49+08:00 ] ::1 /webdemo/index.php/Admin/Index/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T23:44:50+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T23:47:30+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T23:47:33+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=10&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0100s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'product' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `navigation` WHERE ( type=product ) ORDER BY sort desc,id 
+ERR: 1054:Unknown column 'product' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `navigation` WHERE ( type=product ) ORDER BY sort desc,id 
+
+[ 2017-01-10T23:49:36+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T23:49:39+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=10&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0100s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='product' ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

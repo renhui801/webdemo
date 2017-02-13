@@ -1,0 +1,1884 @@
+[ 2016-12-11T01:23:18+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:23:20+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 G:\xampp\htdocs\webdemo\ThinkPHP\Library\Think\Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:24:55+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:24:56+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:24:58+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:00+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:02+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:20+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:25:20+08:00 ] ::1 /webdemo/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:25:21+08:00 ] ::1 /webdemo/index.php/Admin/Index/topframe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:21+08:00 ] ::1 /webdemo/index.php/Admin/Index/leftframe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:21+08:00 ] ::1 /webdemo/index.php/Admin/Index/defaultframe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:25:23+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:25:24+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:26+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:25:28+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:26:13+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:26:14+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:27:22+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:28:53+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:37:23+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:37:26+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:37:57+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:37:58+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:38:00+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:38:01+08:00 ] ::1 /webdemo/index.php/Admin/Config/xsite.php?action=nav&module=article&operation=category_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:xsite.php
+
+[ 2016-12-11T01:38:05+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:38:06+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:38:09+08:00 ] ::1 /webdemo/index.php/Admin/config/xsite.php?action=nav&module=product&operation=category_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:xsite.php
+
+[ 2016-12-11T01:38:11+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:38:12+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:39:05+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:39:06+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:09+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:10+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:14+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:39:15+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:16+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:16+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:39:17+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:39:20+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:28+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:29+08:00 ] ::1 /webdemo/index.php/Admin/config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:30+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:30+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:31+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:32+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:33+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:34+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:34+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:35+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:35+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:36+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:36+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-11T01:40:37+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:38+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:38+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:39+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:40+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:40+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:40+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:41+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:43+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:43+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:44+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:44+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:45+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:45+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:50+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:50+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:51+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:52+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:53+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:55+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:56+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-11T01:40:56+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\8948c87d9ed213b423373e22a74a8438.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:58+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 65 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 76 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\dd79349152d7e0f06126afaa37d0685b.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:58+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 59 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 62 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 73 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 77 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-11T01:40:58+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=addLevel1&type=page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 61 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\da294f32921676f0e09dd3c6d83fe0cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

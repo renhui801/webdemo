@@ -1,0 +1,298 @@
+[ 2017-01-17T23:32:58+08:00 ] ::1 /webdemo/index.php/Admin/Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: status G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: category G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 194 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-01-17T23:33:11+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?action=connect&id=16&articleId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: productId G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 387 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `product` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `product` WHERE ( id= ) LIMIT 1  
+
+[ 2017-01-17T23:34:29+08:00 ] ::1 /webdemo/index.php/Admin/Index/product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='product' ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 236 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 236 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 236 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 236 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 236 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 37 G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined variable: category G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 292 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 293 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T23:36:46+08:00 ] ::1 /webdemo/index.php/Admin/Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: status G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: category G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 194 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T23:41:29+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T23:41:34+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=12&action=edit&type=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: add G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 44 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 44 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 44 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 44 行.
+NOTIC: [8] Undefined variable: add G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 46 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 46 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 46 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 46 行.
+NOTIC: [8] Undefined variable: add G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 47 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 47 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 47 行.
+NOTIC: [8] Undefined variable: get G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 47 行.
+NOTIC: [8] Undefined index: display G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\60d342835ca68343b9add616f56a2435.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T23:42:04+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=12&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0020s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 390 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable:  G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\b4cd3d46106fb57b2687ea6a2ed31744.php 第 115 行.
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\b4cd3d46106fb57b2687ea6a2ed31744.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T23:42:16+08:00 ] ::1 /webdemo/index.php/Admin/Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: pass G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: status G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: category G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 194 行.
+NOTIC: [8] Undefined index: category_id G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 195 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T23:43:39+08:00 ] ::1 /webdemo/index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::theme() should be compatible with Think\Controller::theme($theme) G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=1 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=2 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `navigation` WHERE ( level=3 ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: infoName G:\xampp\htdocs\webdemo\Application\Admin\Controller\IndexController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T23:43:42+08:00 ] ::1 /webdemo/index.php/Admin/Config/nav.html?id=16&action=connect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `navigation` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `navigation` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `navigation` WHERE ( type='article' ) ORDER BY sort desc,id  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\webdemo\Application\Admin\Controller\ConfigController.class.php 第 390 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable:  G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\b4cd3d46106fb57b2687ea6a2ed31744.php 第 115 行.
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\webdemo\Application\Runtime\Cache\Admin\b4cd3d46106fb57b2687ea6a2ed31744.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

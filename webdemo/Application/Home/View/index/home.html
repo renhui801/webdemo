@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="__PUBLIC__/css/slide.css" rel="stylesheet">
+    <script src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+    <script src="__PUBLIC__/js/slide.js"></script>
+    <title>XX公司-首页</title>
+    <style type="text/css">
+        .url{
+            font-size:10px;
+            position: absolute;
+            bottom: 4px;
+            text-decoration: none;
+        }
+        .menu{
+            display:inline-block;
+            width: 115px;
+            height: 50px;
+            text-align:center;
+            line-height: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;;
+        }
+    </style>
+    <style>
+        .ck-slide { height: 320px; margin: 7px auto;}
+        .ck-slide ul.ck-slide-wrapper { height: 320px;}
+        .slide_img{ width:960px}
+    </style>
+    <script>
+        $('.ck-slide').ckSlide();
+    </script>
+</head>
+<body>
+<div style="height: 1080px;width: 960px;margin:0 auto">
+    <div style="position: relative">
+        <img id="logo" src="__PUBLIC__/img/logo.jpg">
+        <img src="__PUBLIC__/img/backround.jpg" style="position: absolute;right: 0px;bottom: 0px">
+        <img src="__PUBLIC__/img/home.jpg"style="position: absolute;right: 235px;bottom: 5px;">
+        <a class="url" href="" style="position:absolute;right: 180px;">设为首页</a>
+        <img src="__PUBLIC__/img/bookmark.jpg" style="position: absolute;right: 160px;bottom: 5px;">
+        <a class="url" href="" style="right: 105px;">加入收藏</a>
+        <img src="__PUBLIC__/img/mail.jpg" style="position: absolute;right: 85px;bottom: 5px;">
+        <a href="" class="url" style="right: 30px;">联系我们</a>
+    </div>
+    <div style="height: 20px">
+    </div>
+    <div style="height: 50px;background-repeat: repeat-x;background: url(__PUBLIC__/img/menu.jpg);">
+        <div style="float: left;height: 50px;width: 20px;background: url(__PUBLIC__/img/menuleft.jpg)"></div>
+        <div style="float: right;height: 50px;width: 20px;background: url(__PUBLIC__/img/menuright.jpg)"></div>
+        <a href="" class="menu">首页
+        </a><a href="" class="menu">公司简介
+        </a><a href="" class="menu">产品中心
+        </a><a href="" class="menu">质量体系
+        </a><a href="" class="menu">工程案例
+        </a><a href="" class="menu">新闻动态
+        </a><a href="" class="menu">人才招聘
+        </a><a href="" class="menu">联系我们</a>
+    </div>
+    <div class="ck-slide">
+        <ul class="ck-slide-wrapper">
+            <li>
+                <a href="http://www.dowebok.com/"><img class="slide_img" src="__PUBLIC__/img/1.jpg" alt=""></a>
+            </li>
+            <li style="display:none">
+                <a href="http://www.dowebok.com/144.html"><img class="slide_img" src="__PUBLIC__/img/2.jpg" alt=""></a>
+            </li>
+            <li style="display:none">
+                <a href="javascript:"><img class="slide_img" src="__PUBLIC__/img/3.jpg" alt=""></a>
+            </li>
+            <li style="display:none">
+                <a href="javascript:"><img class="slide_img" src="__PUBLIC__/img/4.jpg" alt=""></a>
+            </li>
+            <li style="display:none">
+                <a href="javascript:"><img class="slide_img" src="__PUBLIC__/img/5.jpg" alt=""></a>
+            </li>
+        </ul>
+        <a href="javascript:" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:" class="ctrl-slide ck-next">下一张</a>
+        <div class="ck-slidebox">
+            <div class="slideWrap">
+                <ul class="dot-wrap">
+                    <li class="current"><em>1</em></li>
+                    <li><em>2</em></li>
+                    <li><em>3</em></li>
+                    <li><em>4</em></li>
+                    <li><em>5</em></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.ck-slide').ckSlide({
+            dir:'x'
+        });
+    </script>
+    <div style="width: 300px;height: 300px">
+
+    </div>
+    <div style="width: 300px;height: 300px">
+
+    </div>
+    <div style="width: 300px;height: 300px">
+
+    </div>
+</div>
+</body>
+</html>
